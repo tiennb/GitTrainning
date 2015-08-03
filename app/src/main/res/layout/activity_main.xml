@@ -1,33 +1,39 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
-
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:id="@+id/tvTextHello"
-        android:layout_height="wrap_content" />
-
-    <TextView android:text="@string/hiep_ka_ka"
-        android:layout_width="wrap_content"
-        android:id="@+id/tvHiep"
-        android:textColor="#ff8a3d"
-        android:textSize="30sp"
-        android:background="#5672c0d1"
-        android:layout_below="@+id/tvTextHello"
-        android:layout_height="wrap_content" />
+    tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvTextHello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/tinenb"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/tvHiep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTextHello"
+        android:background="#5672c0d1"
+        android:text="@string/hiep_ka_ka"
+        android:textColor="#ff8a3d"
+        android:textSize="30sp" />
+
+    <TextView
         android:id="@+id/tvName"
-        android:layout_below="@+id/tvHiep"
-        android:layout_alignRight="@+id/tvHiep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/tvHiep"
+        android:layout_alignRight="@+id/tvHiep"
+        android:layout_below="@+id/tvHiep"
+        android:layout_marginEnd="65dp"
         android:layout_marginRight="65dp"
-        android:layout_marginEnd="65dp" />
+        android:text="@string/tinenb"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
