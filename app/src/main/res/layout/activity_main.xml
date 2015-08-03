@@ -17,4 +17,17 @@
         android:background="#5672c0d1"
         android:layout_below="@+id/tvTextHello"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tinenb"
+        android:id="@+id/tvName"
+        android:layout_below="@+id/tvHiep"
+        android:layout_alignRight="@+id/tvHiep"
+        android:layout_alignEnd="@+id/tvHiep"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp" />
+
 </RelativeLayout>
