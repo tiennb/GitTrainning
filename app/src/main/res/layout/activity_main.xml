@@ -37,4 +37,8 @@
         android:text="@string/tinenb"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+
+
+
+
 </RelativeLayout>
