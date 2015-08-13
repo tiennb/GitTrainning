@@ -12,7 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("Tiến t hó");
+        System.out.println("Tiến t hó 1");
+        System.out.println("Tiến t hóTiến t hó 1");
+        System.out.println("Tiến t hóTiến t hó 1"); 
+
+
+
         initView();
     }
 
